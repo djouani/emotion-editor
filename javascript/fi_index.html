@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+    PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+<title>Mika Turkia - Emotion Editor</title>
+<link rel='stylesheet' type='text/css' href='styles_demo_fi.css' title='stylesheet'></link>
+<meta name="robots" content="index,nofollow,nocache,noarchive" />
+<script type="text/javascript" src="fi_controller.js"></script>
+<script type="text/javascript" src="fi_emotioneditor.js"></script>
+<noscript>Emotion Editor ei toimi ilman JavaScriptiä. Laita se päälle selaimen asetuksista.</noscript>
+</head>
+<body onLoad="agents = new Array(); agents.push(new agent(5)); agents.push(new agent(5)); agents.push(new agent(5)); e = new environment(agents); e.start_life();">
+
+<div id="objektit">
+
+<div id="object1">
+<p id="object1results"></p>
+<div id="face1">
+<img src="" />
+</div>
+<form id="eventfrom1">
+Teko: anna 
+<select id="target">
+  <option value="1">itselleni
+  <option selected value="2">toimijalle 2
+  <option value="3">toimijalle 3
+</select>
+hyötymäärä
+<select id="utility">
+  <option value="-5">-5
+  <option value="-4">-4
+  <option value="-3">-3
+  <option value="-2">-2
+  <option value="-1">-1
+  <option value="0">0
+  <option selected value="1">1
+  <option value="2">2
+  <option value="3">3
+  <option value="4">4
+  <option value="5">5
+</select>
+<a href="#" onclick="e.process_user_event(1, document.getElementById('eventfrom1').target.value, document.getElementById('eventfrom1').utility.value);">Tee</a>
+</form>
+</div>
+
+<div id="box1">
+<img id="img1" src="mood_good.png" />
+</div>
+
+<div id="object2">
+<p id="object2results"></p>
+<div id="face2">
+<img src="" />
+</div>
+<form id="eventfrom2">
+Teko: anna
+<select id="target">
+  <option selected value="1">toimijalle 1
+  <option value="2">itselleni
+  <option value="3">toimijalle 3
+</select>
+hyötymäärä
+<select id="utility">
+  <option value="-5">-5
+  <option value="-4">-4
+  <option value="-3">-3
+  <option value="-2">-2
+  <option value="-1">-1
+  <option value="0">0
+  <option selected value="1">1
+  <option value="2">2
+  <option value="3">3
+  <option value="4">4
+  <option value="5">5
+</select>
+<a href="#" onclick="e.process_user_event(2, document.getElementById('eventfrom2').target.value, document.getElementById('eventfrom2').utility.value);">Tee</a>
+</form>
+</div>
+
+<div id="box2">
+<img id="img2" src="mood_good.png" />
+</div>
+
+
+<div id="object3">
+<p id="object3results"></p>
+<div id="face3">
+<img src="" />
+</div>
+<form id="eventfrom3">
+Teko: anna
+<select id="target">
+  <option value="1">toimijalle 1
+  <option selected value="2">toimijalle 2
+  <option value="3">itselleni
+</select>
+hyötymäärä
+<select id="utility">
+  <option value="-5">-5
+  <option value="-4">-4
+  <option value="-3">-3
+  <option value="-2">-2
+  <option value="-1">-1
+  <option value="0">0
+  <option selected value="1">1
+  <option value="2">2
+  <option value="3">3
+  <option value="4">4
+  <option value="5">5
+</select>
+<a href="#" onclick="e.process_user_event(3, document.getElementById('eventfrom3').target.value, document.getElementById('eventfrom3').utility.value);">Tee</a>
+</form>
+</div>
+
+<div id="box3">
+<img id="img3" src="mood_good.png" />
+</div>
+
+</div> <!--objektit-->
+ 
+<div id="arrows">
+<img id="nuolioikea" src="nuoli_oikea.png" alt="" />
+<img id="nuolivasen" src="nuoli_vasen.png" alt="" />
+<img id="nuoliyla" src="nuoli_yla.png" alt="" />
+<p id="result12"></p>
+<p id="result21"></p>
+<p id="result13"></p>
+<p id="result31"></p>
+<p id="result23"></p>
+<p id="result32"></p>
+</div>
+
+<div id="topleft">
+<p id="results"></p>
+</div>
+
+<div id="topright">
+<p>
+<a href="fi_instructions.html" alt="">Ohjeet</a>
+</p>
+</div>
+
+</body>
+</html>
+

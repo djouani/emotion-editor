@@ -1,0 +1,181 @@
+body { 
+  color: #555555;
+  font-size: 10pt;
+  line-height: 11pt; 
+  font-family: serif;
+}
+
+select {  
+  color: #ffffff;
+  background-color: #e25f5f;  
+  border-style: none;
+}
+
+a {
+  color: #555555;
+}
+
+p {  
+  color: #555555;
+  background-color: transparent;  
+  border-style: none;
+  padding: 15px;
+  padding-top: 0px;
+  font-size: 10pt;
+  line-height: 11pt; 
+  font-family: serif;
+}
+
+#kuva {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#teksti {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 450px;
+}
+
+#object1, #object2, #object3 {  
+  z-index: 2;
+  position: absolute;
+  color: #555555;
+  background-color: transparent;  
+  border-style: none;
+  padding: 10px;
+  width: 350px;
+  height: 170px;
+}
+
+#object1,#box1 {
+  left: 30px;
+  top: 80px;
+}
+
+#object2,#box2 {
+  left: 580px;
+  top: 80px;
+}
+
+#object3,#box3 {
+  left: 310px;
+  top: 360px;
+}
+
+#box1,#box2,#box3 {
+  z-index: 1;
+  position: absolute;
+}
+
+#face1,#face2,#face3 {  
+  z-index: 3;
+  position: absolute;
+  left: 310px;
+  top: 20px;
+}
+
+#eventfrom1,#eventfrom2,#eventfrom3 {  
+  z-index: 4;
+  position: absolute;
+  color: #555555;
+  left: 50px;
+  top: 135px;
+}
+
+#arrows {
+  z-index: 5;
+  position: absolute;
+}
+
+#arrows p {
+  color: #ff0000;  
+}
+
+#topleft {
+  color: #aaaaaa;  
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+#topleft p, #topright p {
+  padding: 0px;
+}
+
+#topright {
+  color: #aaaaaa;  
+  position: absolute;
+  left: 910px;
+  top: 10px;
+  text-align: right:
+}
+
+#result12 {
+  position: absolute;
+  left: 435px;
+  top: 45px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+#result21 {
+  position: absolute;
+  left: 435px;
+  top: 185px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#result13 {
+  position: absolute;
+  left: 320px;
+  top: 255px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#result31 {
+  position: absolute;
+  left: 130px;
+  top: 280px;
+  text-align: right;
+  vertical-align: middle;
+}
+
+#result23 {
+  position: absolute;
+  left: 550px;
+  top: 255px;
+  text-align: right;
+  vertical-align: middle;
+}
+
+#result32 {
+  position: absolute;
+  left: 740px;
+  top: 280px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#nuolioikea {
+  position: absolute;
+  left: 670px;
+  top: 270px;
+}
+
+#nuolivasen {
+  position: absolute;
+  left: 240px;
+  top: 270px;
+}
+
+#nuoliyla {
+  position: absolute;
+  left: 440px;
+  top: 100px;
+}
+
