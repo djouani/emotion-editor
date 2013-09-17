@@ -46,7 +46,7 @@ or in [E-thesis](http://urn.fi/URN:NBN:fi-fe20071088).
 
 A [demonstration](https://www.cs.helsinki.fi/u/turkia/emotion/emotioneditor/) is available. 
 
-### Publications
+#### Publications
 
 The model has also been described in the following article: 
 
