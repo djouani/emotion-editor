@@ -1,6 +1,6 @@
 ### Emotion Editor
 
-_Mika Turkia: On defining affects computationally
+_Mika Turkia: On defining affects computationally. 
 Master's thesis, University of Helsinki, Department of Computer Science, C-2007-017. Date: 12.2.2007._
 
 ![Classification of Emotions](https://www.cs.helsinki.fi/u/turkia/emotion/classification/classification_of_emotions.png)
